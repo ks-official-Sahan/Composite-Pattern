@@ -1,5 +1,7 @@
 package ewision.sahan.application;
 
+import ewision.sahan.no_composite.InitializeNoComposite;
+
 /**
  *
  * @author ksoff
@@ -7,9 +9,10 @@ package ewision.sahan.application;
 public class Application {
 
     public static void main(String[] args) {
-
-        System.out.println("Composite");        
         
+        System.out.println("No-Composite");
+        InitializeNoComposite.init();
+
     }
-    
+
 }

@@ -1,4 +1,4 @@
-package ewision.sahan.model;
+package ewision.sahan.no_composite.model;
 
 /**
  *
